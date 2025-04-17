@@ -13,7 +13,7 @@ namespace Localization
             LibraryRu.Init();
             LibraryEn.Init();
             //
-            DefaultText = LibraryEn.Data();
+            DefaultText = LibraryRu.Data();
             
             foreach (DataName fruit in Enum.GetValues(typeof(DataName)))
             {
